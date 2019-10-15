@@ -87,10 +87,8 @@ INSERT INTO branches
 VALUE (2, 'London', 300, '2009-01-13');
 
 
-
 INSERT INTO branches
 VALUE (3, 'Birmingham', 300, '2009-03-05');
-
 
 
 INSERT INTO branches
@@ -105,8 +103,10 @@ clients table
 INSERT INTO clients
 VALUE (1, 'John Lewis', 1);
 
+
 INSERT INTO clients
 VALUE (2, 'Marks & Spencer', 2);
+
 
 INSERT INTO clients
 VALUE (3, 'H & M', 3);
@@ -124,8 +124,10 @@ VALUE ('Southampton', 100, '2007-12-12');
 INSERT INTO managers 
 VALUE ('Southampton', 100, '2007-12-12');
 
+
 INSERT INTO managers 
 VALUE ('London', 200, '2009-01-13');
+
 
 INSERT INTO managers 
 VALUE ('Birmingham', 300, '2009-03-05');
@@ -145,6 +147,7 @@ VALUE (100, 1, 500000);
 
 INSERT INTO works_with
 VALUE (200, 2, 3450340);
+
 
 INSERT INTO works_with
 VALUE (300, 3, 320000);
